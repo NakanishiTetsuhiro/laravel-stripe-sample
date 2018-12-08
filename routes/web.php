@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', "PaymentsController@show");
+Route::post('/', "PaymentsController@payment");
+Route::get('/thanks', "PaymentsController@thanks");
