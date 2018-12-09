@@ -1,9 +1,5 @@
 # Laravel Stripe Sample
 
-## 準備
-
-php artisan serve
-
-## リンク集
+## Stripeの公式パッケージ
 
 - [stripe/stripe-php](https://github.com/stripe/stripe-php)
